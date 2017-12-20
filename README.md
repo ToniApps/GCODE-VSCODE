@@ -21,5 +21,5 @@ First Release! 🎉
 
 ⏺ &nbsp; Write snippets for all the *GCODE* functions
 
-### 0.2.0
+### 0.3.0
 Initial Release
