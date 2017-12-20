@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>gcode</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>\(</string>
+	<key>foldingStopMarker</key>
+	<string>\)</string>
+	<key>name</key>
+	<string>GCODE</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>[G]([ \t]*[\d])*[ \t]*</string>
+			<key>name</key>
+			<string>entity.name.function.gcode.gcode</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[M]([ \t]*[\d])*[ \t]*</string>
+			<key>name</key>
+			<string>entity.name.function.mcode.gcode</string>
+			<!--<string>keyword.control.mcode.gcode</string>-->
+		</dict>
+		<dict>
+			<key>match</key>
+			<!--<string>[x|X|y|Y|z|Z](\-?[\d]*\.?[\d]*)</string>-->
+			<string>[X|Y|Z](\+?[\d]*\-?[\d]*\.?[\d]*)</string>
+			<key>name</key>
+			<string>variable.parameter.gcode</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[E](\+?[\d]*\-?[\d]*\.?[\d]*)</string>
+			<key>name</key>
+			<string>constant.numeric.ecode.gcode</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[F]([ \t]*[\d])*[ \t]*</string>
+			<key>name</key>
+			<string>constant.numeric.fcode.gcode</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[S]([ \t]*[\d])*[ \t]*</string>
+			<key>name</key>
+			<string>keyword.control.scode.gcode</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>;</string>
+			<key>end</key>
+			<string>\n</string>
+			<key>name</key>
+			<string>comment.gcode</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.gcode</string>
+	<key>uuid</key>
+	<string>9692BC8B-5772-4700-9A6E-D5653090F58A</string>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+{
+    "name": "gcode",
+    "displayName": "GCODE language",
+    "description": "GCODE language support",
+    "version": "0.2.0",
+    "publisher": "ToniApps",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages",
+        "Snippets"
+    ],
+    "galleryBanner": {
+        "color": "#3498db"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "gcode",
+                "aliases": [
+                    "GCODE",
+                    "gcode"
+                ],
+                "extensions": [
+                    ".gcode"
+                ],
+                "configuration": "./languages/gcode.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "gcode",
+                "scopeName": "source.gcode",
+                "path": "./syntaxes/gcode.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "gcode",
+                "path": "./snippets/gcode.json"
+            }
+        ]
+    }
+}

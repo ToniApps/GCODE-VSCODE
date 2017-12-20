@@ -1,0 +1,17 @@
+{
+    "M117": {
+        "prefix": "M117",
+        "body": [
+            "M117 ${0:text}"
+        ],
+        "description": "Writes text to your LCD Screen"
+    },
+    "G29": {
+        "prefix": "G29",
+        "body": [
+            "G29 ;autolevel",
+            "M500 ;save data"
+        ],
+        "description": "Autolevel"
+    }
+}
