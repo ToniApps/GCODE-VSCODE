@@ -5,10 +5,10 @@ This is a simple extensions that adds support for the GCODE language, that means
 
 
 #### Language Syntaxis
-![Language Syntaxis](https://imgur.com/vwQ7hYr)
+![Language Syntaxis](./images/syntaxis.png)
 
 #### Some Snippets
-![Language Snippets](https://imgur.com/TefqqfC)
+![Language Snippets](./images/snippets.png)
 
 ## Known Issues
 None 😎
