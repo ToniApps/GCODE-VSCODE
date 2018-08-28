@@ -42,7 +42,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>[F]([ \t]*[\d])*[ \t]*</string>
+			<string>[F](\+?[\d]*\-?[\d]*\.?[\d]*)</string>
 			<key>name</key>
 			<string>constant.numeric.fcode.gcode</string>
 		</dict>
