@@ -28,7 +28,8 @@
                     "gcode"
                 ],
                 "extensions": [
-                    ".gcode"
+                    ".gcode",
+                    ".g"
                 ],
                 "configuration": "./languages/gcode.json"
             }
