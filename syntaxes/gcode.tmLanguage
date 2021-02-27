@@ -36,6 +36,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>[T]([\d]+\s)</string>
+			<key>name</key>
+			<string>constant.numeric.tcode.gcode</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>[E](\+?[\d]*\-?[\d]*\.?[\d]*)</string>
 			<key>name</key>
 			<string>constant.numeric.ecode.gcode</string>
